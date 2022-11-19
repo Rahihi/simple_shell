@@ -34,7 +34,7 @@ _eputchar(BUF_FLUSH);
 exit(127);
 }
 return (EXIT_FAILURE);
-}	
+}
 info->readfd = fd;
 }
 populate_env_list(info);
